@@ -1,0 +1,161 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-flex{
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+    font-weight: bold;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    text-decoration: none;
+    color:lightgray;
+}
+li:hover{
+    color: #004EFF;
+    border-top: 2px solid #004EFF;
+    padding-top: 10px;
+}
+.d-flex{
+    width: 80px;
+    height: 40px;
+}
+.hebergements{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    justify-content: space-around;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;
+    height: 225px;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    margin: auto !important;
+    width: 400px;
+    height: 141px;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+.les-plus-populaire{
+    display: flex;
+    flex-direction: column;
+    width : 30%;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.badge-complete{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.badge-complete .fas{
+    width: 41px;
+    height: 41px;
+    background-color:#deebfe;
+    border-radius: 50px;
+    display: inline-block;
+}   
+.mn-filtres{
+    display: flex;
+    width: 70%;
+}
+.badge{
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -40px;
+}
+.card img{
+    display: block;
+    margin: 2px;
+    border-radius: 20px 20px 0px 0px;
+    width: 230px;
+    height: 110px;
+}
+.card-title{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.card-text{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.fas{
+    display: inline-block;
+    color: #004EFF;
+    margin-right: 16px;
+    margin-left: -6px;
+
+}
+.stars{
+    display: block;
+    margin-left: 10px;
+}
+.card-body{
+    padding: 0;
+    margin: 0;
+}
+.card-img-top{
+    height: 150px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.line:hover{
+    border-top: 2px solid #004EFF;
+}
+h2{
+    height: 25px;
+    width: 75%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-right: 160px;
+}
+.stars :nth-child(5){
+    background-color:#F2F2F2;
+}
+.card1 img{
+    display: block;
+    margin-left: -38px;
+    width: 140px;
+    height: 138px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
