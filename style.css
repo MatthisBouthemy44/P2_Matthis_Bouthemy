@@ -77,10 +77,8 @@ li:hover{
     justify-content: space-between;
 }
 .badge-complete{
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
     padding: 20px 20px;
-    width: 55%;
 }
 .mn-filtres{
     display: flex;
@@ -89,13 +87,17 @@ li:hover{
 .badge{
     border: 1px solid grey;
     border-left: none;
-    border-radius: 50px;
-    width: 160px;
-    height: 48px;
-    margin-left: -40px;
-    display: flex;
-    justify-content: start;
-    align-content: center;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 0;
+    margin-left: 10px;
+}
+.badge .fas {
+    background-color: #DEEBFF;
+    /* background-size: 2em; */
+    margin: 0 10px 0 -1px ;
+    padding: 13px;
+    border-radius: 20px;
 }
 .card img{
     display: block;
@@ -113,7 +115,6 @@ li:hover{
     font-size: 14px;
 }
 .fas{
-    display: inline-block;
     color: #004EFF;
 
 }
@@ -151,38 +152,4 @@ h2{
     width: 140px;
     height: 138px;
     border-radius: 20px 0px 0px 20px;
-}
-
-.circle{
-    height: 44px;
-    width: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
-.badge-title{
-    margin: auto;
-}
-
-.inv{
-    position: absolute;
-    z-index: 1;
-    top: 176px;
-    left: 2px;
-}
-
-.inv .badge{
-    border: none;
-}
-
-.inv .circle{
-    height: 50px;
-    width:  50px;
-    background-color: #DEEBFE;
-}
-
-.inv .flitre{
-    visibility: hidden;
 }
