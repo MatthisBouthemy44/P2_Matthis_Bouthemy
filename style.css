@@ -5,6 +5,16 @@ body
 	margin-right: 40px;
 	margin-left: 40px;
 }
+@font-face {
+    font-family: 'fontraleway';
+    src: url('fontraleway/Raleway-VariableFont_wght.ttf') format('truetype'),
+         url('fontraleway/static/Raleway-Bold.ttf') format('truetype'),
+         url('fontraleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'fontralewaybold';
+    src: url('fontraleway/static/Raleway-Bold.ttf') format('truetype');
+}
 
 header
 {
