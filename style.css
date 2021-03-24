@@ -274,6 +274,7 @@ li:hover
 	gap: 0px 0px;
     width: 100%;
     margin-top: 100px;
+    margin-bottom: -200px;
     
 }
 
@@ -391,6 +392,7 @@ li:hover
 {
 	border: 1px solid lightgray;
 	border-radius: 0 0 20px 20px;
+    box-shadow: 20px black;
 }
 footer{
     background-color:#F2F2F2;
@@ -398,9 +400,11 @@ footer{
     flex-direction: row;
     margin-left: -40px;
     margin-right: -40px;
+    height: 250px;
 }
 footer li {
-    text-decoration: none;
+    list-style-type: none;
+    
 }
 .footer1{
     margin: auto;
@@ -410,4 +414,7 @@ footer li {
 }
 .footer3{
     margin: auto;
+}
+.act-title{
+    margin-left: 20px;
 }
