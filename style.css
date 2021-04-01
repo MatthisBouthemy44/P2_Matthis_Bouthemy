@@ -417,7 +417,7 @@ footer li {
     list-style-type: none;
     
 }
-.footer1{
+footer :nth-child(1){
     margin: auto;
 }
 .footer2{
