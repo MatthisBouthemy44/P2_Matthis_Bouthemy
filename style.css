@@ -413,17 +413,14 @@ footer{
     margin-right: -40px;
     height: 250px;
 }
-footer li {
-    list-style-type: none;
-    
-}
+
 footer :nth-child(1){
     margin: auto;
 }
-.footer2{
+footer :nth-child(2){
     margin: auto;
 }
-.footer3{
+footer :nth-child(3){
     margin: auto;
 }
 .act-title{
