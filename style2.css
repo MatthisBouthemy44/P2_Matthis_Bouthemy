@@ -22,7 +22,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin-left: 0px;
 }
 h1 {
     display: none;
@@ -33,12 +32,6 @@ h1 {
     width: 80px;
     height: 40px;
 }
-
-.nav_links {
-    list-style: none;
-    font-weight: bold;
-}
-
 .nav_links li {
     display: inline-block;
     padding: 0px 20px;
@@ -64,20 +57,13 @@ h1 {
     padding: 2px;
 }
 .btn1 {
-    border-right: none;
-    background-color: #f2f2f2;
     height: 40px;
     border-radius: 15px 0px 0px 15px;
     border: none;
     width: 40px;
     cursor: pointer;
 }
-
-.btn1 .fas {
-    color: black;
-}
 .btn2 {
-    border-left: none;
     background-color: #004eff;
     color: #fff;
     height: 40px;
@@ -129,7 +115,6 @@ section .hebergements {
     display: flex;
     flex-wrap: wrap;
     width: 60%;
-    height: 600px;
     border-radius: 20px;
     background-color: #f2f2f2;
     justify-content: space-around;
@@ -137,13 +122,9 @@ section .hebergements {
     padding-right: 20px;
 }
 .card {
-    position: relative;
     display: flex;
     flex-direction: column;
-    word-wrap: break-word;
     background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 20px;
     height: 180px;
     width: 250px;
@@ -159,10 +140,8 @@ section .hebergements {
     margin-top: 10px;
 }
 .card img {
-    display: block;
     margin: 4px;
     border-radius: 15px 15px 0px 0px;
-    width: 96.5%;
     height: 110px;
 }
 .card-title {
@@ -176,7 +155,6 @@ section .hebergements {
     margin-bottom: 0px;
 }
 .hebergements h2 {
-    height: 25px;
     width: 75%;
     margin-bottom: 10px;
     margin-top: 30px;
@@ -229,7 +207,7 @@ figcaption h3 {
     margin-left: 20px;
 }
 /* ACTIVITÉS A MARSEILLE */
-
+/*
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -335,6 +313,19 @@ figcaption h3 {
     display: block;
     width: 310px;
     height: 180px;
+}
+*/
+#activities main{
+    display: flex;
+    flex-direction: row;   
+}
+#activities main div{
+    flex-direction: row;
+    width:100%;
+}
+#activities main div img {
+    width: 100%;
+    max-height: 500px;
 }
 
 
