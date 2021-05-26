@@ -244,17 +244,19 @@ main section {
 }
 /* ACTIVITÉS A MARSEILLE */
 
+
 #activities .activties-container{
     display: flex;
     border: 1px solid yellow;
     justify-content: space-between;
+    height: 500px;
 }
 #activities .activities-column {
-    min-width: 23%;
+    max-width: 23%;
     display: flex;
     flex-direction: column;
     border: 1px solid green;
-    min-height: 450px;
+    height: 100%;
 }
 #activities .activities-column figcaption{
     height: 40px;
@@ -262,31 +264,59 @@ main section {
 }
 #activities .actvities-image{
     border: 1px solid red;
-    min-height: 100px;
+    min-height: 80%;
     overflow: hidden;
-    height: 100%;
-
+    width: 100%;
 }
 #activities .actvities-image img{
     height: 100%;
-    object-position: -200px bottom;
+    /*display: none;*/
+}
+.activities-column{
+    justify-content: space-between;
+    height: 100%;
+}
+.activities-column figure{
+    margin: 0;
 }
 .fig100 {
     height: 100%;   
 }
 .fig100 .actvities-image{
-    width: 300px;
-    height: 400px;
+    height: 460px;
+}
+
+.fig40 {
+    height: 40%;   
+}
+.fig40 .actvities-image{
+    height: 150px;
+}
+.fig40 .actvities-image img{
+    width: 100%;
+    height: auto;
+}
+.fig60 {
+    height: 60%;   
+}
+.fig60 .actvities-image{
+    height: 160px;
+}
+.fig60 .actvities-image img{
+    width: 100%;
+    height: auto;
 }
 .fig50 {
-    height: 50%;
+    height: 50%;   
 }
-.fig60{
-    height: 60%;
+.fig50 .actvities-image{
+    height: 180px;
 }
-.fig40{
-    height: 40%;
+.fig50 .actvities-image img {
+    width: 100%;
+    height: auto;
 }
+
 
 
 /* FOOTER */
