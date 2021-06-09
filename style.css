@@ -203,10 +203,19 @@ main section {
     padding: 20px 0px 20px 0px;
 }
 
-.les-plus-populaire div {
+.populaire-card {
     display: flex;
     flex-direction: column;   
     justify-content: space-around;
+}
+.populaire-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.populaire-title i{
+    margin-right: 30px;
+    margin-top: 10px;
 }
 .card1 {
     display: flex;
@@ -270,11 +279,19 @@ main section {
 #activities .actvities-image{
     border-radius: 20px 20px 0 0;
     min-height: 80%;
-    overflow: hidden;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+
+    /*overflow: hidden;
+    width: 100%;*/
 }
 #activities .actvities-image img{
-    height: 100%;
+    /*height: 100%;*/
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 .activities-column{
     justify-content: space-between;
@@ -358,4 +375,58 @@ footer mn-footer{
 .act-title{
     margin-left: 20px;
     box-shadow: 20px;
+}
+
+@media (min-width: 390px) and (max-width: 844px){
+    body{
+        margin: 0;
+    }
+    main section {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: auto;
+    }
+    .hebergements {
+        width: 100%;
+        border-radius: 0;
+    }
+    .card {
+        width: 100%;
+        margin:0;
+        
+    }
+    .les-plus-populaire {
+        margin-top: 10%;
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 20%;
+    }
+
+#activities .activties-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+#activities .activities-column {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 20px;
+}
+    footer{
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+}
+}
+
+
+
+}
+@media (min-width: 834px) and (max-width: 1194px){
+
 }
