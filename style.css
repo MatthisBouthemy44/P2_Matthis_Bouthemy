@@ -389,10 +389,13 @@ footer mn-footer{
     .hebergements {
         width: 100%;
         border-radius: 0;
+        padding: 0;
     }
     .card {
         width: 100%;
-        margin:0;
+        margin-left: 15px;
+        margin-right: 15px;
+        
         
     }
     .les-plus-populaire {
