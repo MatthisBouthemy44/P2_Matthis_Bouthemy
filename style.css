@@ -377,7 +377,8 @@ footer mn-footer{
     box-shadow: 20px;
 }
 
-@media (min-width: 390px) and (max-width: 844px){
+/*@media (min-width: 370px) and (max-width: 844px)*/
+@media only screen and (max-width: 768px){
     body{
         margin: 0;
     }
