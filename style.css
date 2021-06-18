@@ -70,6 +70,11 @@ h3 {
     border: 1px solid lightgray;
     padding: 2px;
 }
+.loupe{
+    display: none;
+}
+
+
 .btn1 {
     height: 40px;
     border-radius: 15px 0px 0px 15px;
@@ -400,22 +405,23 @@ footer mn-footer{
         color: #004eff;
         
     }
-    .nav_activites{
-       
+    .search{
+        margin-left: 20px;
     }
-    .nav_links li {
-        /*display: inline-block;
-        padding: 0px 20px;*/
-    }  
-    .nav_links li a {
-       /*text-decoration: none;
-        color: lightgray;*/
+    .loupe{
+        display: block;
     }
-    
-    .nav_links li a:hover {
-        /*color: #004eff;
-        border-top: 2px solid #004eff;
-        padding-top: 22px;*/
+    .btn2 span{
+        display: none;
+    }
+    .filtre {
+        margin-left: 20px;
+    }
+    .badge{
+        margin: auto 0px 10px 20px;
+    }
+    .text-muted{
+        margin-left: 20px;
     }
     .hebergements {
         width: 100%;
@@ -454,6 +460,9 @@ footer mn-footer{
     width: 100%;
     margin: 0;
     padding: 30px;
+}
+.mn-footer :nth-child(3) {
+    margin-right: 0;
 }
 }
 
