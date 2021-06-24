@@ -315,7 +315,7 @@ main section {
 }
 
 .fig40 {
-    height: 40%;  
+    height: 38%;  
     box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
 	            15px 15px 15px rgba(0,0,0,0.1); 
 }
@@ -327,7 +327,7 @@ main section {
     height: auto;
 }
 .fig60 {
-    height: 60%;
+    height: 58%;
     box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
 	            15px 15px 15px rgba(0,0,0,0.1);   
 }
@@ -339,7 +339,7 @@ main section {
     height: auto;
 }
 .fig50 {
-    height: 50%;   
+    height: 48%;   
     box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
 	            15px 15px 15px rgba(0,0,0,0.1);
 }
@@ -399,6 +399,9 @@ footer mn-footer{
     header{
         display: block;
     }
+    .d-flex{
+        margin: 10px;
+    }
     .title{
         font-size: 1.3em;
         margin-left: 20px;
@@ -407,15 +410,43 @@ footer mn-footer{
     .intro{
         margin-left: 20px;
     }
+
+    .nav_links{
+        padding-left:0 ;
+        border-bottom: 2px solid lightgray;
+        padding-bottom: 10px;
+    }
+    .nav_links li a:active {
+        color: #004EFF;
+        border-bottom: 2px solid #004EFF;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 55px;
+    }
+
     .nav_inscrire{
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: 20px;
+        right: 0px;
     }
     .nav_hebergement{
-        border-bottom: 1px solid #004eff;
-        color: #004eff; 
+        width: 49%;
+        padding: 0 0 10px 0 !important;
+     
+        text-align: center;
+        border-top: none;
     }
+    .nav_hebergement:hover{
+        border-bottom: 2px solid #004eff;
+    }
+    .nav_activites{
+        width: 49%;
+        padding: 0 0 10px 0 !important;
+       
+        text-align: center;
+        border-top: none;
+    }
+
     .search{
         margin-left: 20px;
     }
@@ -485,6 +516,10 @@ footer mn-footer{
         margin-left: 20px;
     }
 
+#activities .actvities-image{
+    max-height: 135px;
+}
+
 #activities .activties-container {
     display: flex;
     flex-direction: column;
@@ -497,6 +532,12 @@ footer mn-footer{
     flex-direction: column;
     height: 100%;
     margin: 20px;
+}
+.fig40{
+    margin-top: 45px !important;
+}
+.fig50 {
+    margin-bottom: 45px !important;
 }
     footer{
     display: block;
