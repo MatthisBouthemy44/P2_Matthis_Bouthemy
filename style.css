@@ -480,8 +480,19 @@ footer mn-footer{
     .badge{
         margin: auto 0px 10px 20px;
     }
-    .text-muted{
+    .information{
+        display: flex;
         margin-left: 20px;
+    }
+    .fa-info{
+    margin-top: 19px;
+    color: #004eff;
+    font-size: 0.9em;
+    }
+    .fa-info::before {
+        border: 1px solid lightgray;
+        border-radius: 50px;
+        padding: 2px 7px;
     }
     .hebergements {
         width: 100%;
@@ -503,7 +514,7 @@ footer mn-footer{
         height: 120px;
         margin-left: 20px;
     }
-    
+
     .plus{
         background: none;
         font-size: 1.1em;
@@ -542,6 +553,8 @@ footer mn-footer{
     height: 100%;
     margin: 20px;
 }
+
+
 .fig40{
     margin-top: 45px !important;
 }
