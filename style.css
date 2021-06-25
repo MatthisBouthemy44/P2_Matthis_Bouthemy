@@ -1,16 +1,7 @@
 
 /* FONTAWESOME */
 
-/*@font-face {
-    font-family: "fontraleway";
-    src: url("fontraleway/Raleway-VariableFont_wght.ttf") format("truetype"), url("fontraleway/static/Raleway-Bold.ttf") format("truetype"), url("fontraleway/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
-} 
-@font-face {
-    font-family: "fontralewaybold";
-    src: url("fontraleway/static/Raleway-Bold.ttf") format("truetype");
-}*/
-
-@font-face { /* DENIS */
+@font-face { 
     font-family: "Raleway";
     src: url("./fontraleway/Raleway-VariableFont_wght.ttf");
     font-weight: 100 1000;
@@ -105,13 +96,6 @@ h3 {
     background-color: #fff;
     cursor: pointer;
     font-size: 14px;
-    /*padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 10px;
-    margin-right: 15px;
-    padding-right: 25px;
-    padding-left: 0px;*/
-
     margin: auto 15px auto 10px;
     padding: 0 25px 0 0;
 }
@@ -165,7 +149,6 @@ main section {
 .card .card-img img {
     width: 100%;
     height: auto;
-    /*margin: 4px;*/
     border-radius: 15px 15px 0px 0px;
 }
 .card .card-body {
@@ -174,8 +157,6 @@ main section {
     margin-left: 10px ;
 }
 .card .card-body p {
-    /*margin-left: 10px;
-    margin-top: -10px;*/
     font-size: 0.7em;
     margin-bottom: 0px;
 }
@@ -188,9 +169,7 @@ main section {
 
 .plus {
     cursor: pointer;
-	/*margin-right: 700px;*/
     font-size: 0.8em;
-    /*margin-bottom: auto;*/
 	font-weight: bold;
     border: none;
     margin: 20px auto 0 auto;
@@ -201,10 +180,8 @@ main section {
 
 .les-plus-populaire {
     width: 30%;
-    /*height: 600px;*/
     border-radius: 20px;
     background-color: #f2f2f2;
-    /*margin-right: 30px;*/
     padding: 20px 0px 20px 0px;
 }
 
@@ -225,13 +202,12 @@ main section {
 .card1 {
     display: flex;
     flex-direction: row;
-    /*width: 350px;*/
     height: 110px;
-    /*justify-content: space-around;*/
     background-color: #fff;
     border-radius: 20px;
-    /*padding-top: 3px;
-    padding-left: 2px;*/
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 .card1 .card-img {
     position: relative;
@@ -288,12 +264,8 @@ main section {
     justify-content: center;
     align-items: center;
     overflow: hidden
-
-    /*overflow: hidden;
-    width: 100%;*/
 }
 #activities .actvities-image img{
-    /*height: 100%;*/
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
@@ -382,7 +354,8 @@ footer mn-footer{
     box-shadow: 20px;
 }
 
-/*@media (min-width: 370px) and (max-width: 844px)*/
+/*@MEDIA SCREEN*/
+
 @media only screen and (max-width: 768px){
     body{
         margin: 0;
@@ -448,6 +421,9 @@ footer mn-footer{
         text-align: center;
         border-top: none;
     }
+    .nav_inscrire{
+        color:#004eff;
+    }
 
     .search{
         margin-left: 20px;
@@ -482,13 +458,17 @@ footer mn-footer{
     }
     .information{
         display: flex;
-        margin-left: 20px;
+        margin-left: 15px;
+    }
+    .information p{
+        padding-left: 5px;
     }
     .fa-info{
     margin-top: 19px;
     color: #004eff;
     font-size: 0.9em;
     }
+
     .fa-info::before {
         border: 1px solid lightgray;
         border-radius: 50px;
@@ -528,7 +508,7 @@ footer mn-footer{
     }
     .graph{
         font-size: 1.4em;
-        margin-top: 15px;
+        margin-top: 19px!important;
     }
 
     #activities header h2{
