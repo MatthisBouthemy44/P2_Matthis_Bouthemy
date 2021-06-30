@@ -112,7 +112,7 @@ h3 {
 }
 
 /* HÉBERGEMENTS */
-main section {
+main .main {
     display: flex;
     justify-content: space-between;
 }
@@ -356,11 +356,11 @@ footer mn-footer{
 
 /*@MEDIA SCREEN*/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     body{
         margin: 0;
     }
-    main section {
+    main .main {
         display: flex;
         flex-direction: column-reverse;
         padding: auto;
@@ -389,19 +389,24 @@ footer mn-footer{
         border-bottom: 2px solid lightgray;
         padding-bottom: 10px;
     }
-    .nav_hebergement a:active {
+    .nav_links li a:hover{
+        border-top: none;
+    }
+    .nav_hebergement a:hover {
         color: #004EFF;
         border-bottom: 2px solid #004EFF;
         padding-bottom: 20px;
         padding-left: 50px;
         padding-right: 35px;
+        border-top: none;
     }
-    .nav_activites a:active {
+    .nav_activites a:hover {
         color: #004EFF;
         border-bottom: 2px solid #004EFF;
         padding-bottom: 20px;
         padding-left: 50px;
         padding-right: 75px;
+        border-top: none;
     }
     .nav_inscrire{
         position: absolute;
@@ -554,8 +559,4 @@ footer h3{
 .mn-footer :nth-child(3) {
     margin-right: 0;
 }
-}
-
-@media (min-width: 834px) and (max-width: 1194px){
-
 }
