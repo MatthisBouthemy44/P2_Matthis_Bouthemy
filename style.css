@@ -86,7 +86,7 @@ h3 {
     margin-right: 15px;
 }
 .badge-complete {
-    display: inline-block;
+    display: flex;
     padding: 20px 0px;
 }
 .badge {
@@ -462,6 +462,9 @@ footer mn-footer{
     }
     .btn2 span{
         display: none;
+    }
+    .badge-complete {
+        display: inline-block;
     }
     .filtre {
         margin-left: 20px;
