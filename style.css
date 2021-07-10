@@ -107,6 +107,9 @@ h3 {
     padding: 13px;
     border-radius: 20px;
 }
+.badge .fas:hover{
+    color: lightgray;
+}
 .text-muted .fas {
     color: #004eff;
     margin-right: 5px;
@@ -140,6 +143,7 @@ main .main {
     width: 250px;
     margin: 10px;
     overflow:hidden;
+    cursor: pointer;
 }
 
 .card .card-img {
@@ -212,6 +216,7 @@ main .main {
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 .card1 .card-img {
     position: relative;
@@ -285,6 +290,7 @@ main .main {
     height: 100%;  
     box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
 	            15px 15px 15px rgba(0,0,0,0.1); 
+                cursor: pointer;
 }
 .fig100 .actvities-image{
     height: 460px;
@@ -294,6 +300,7 @@ main .main {
     height: 38%;  
     box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
 	            15px 15px 15px rgba(0,0,0,0.1); 
+                cursor: pointer;
 }
 .fig40 .actvities-image{
     height: 150px;
@@ -306,6 +313,7 @@ main .main {
     height: 58%;
     box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
 	            15px 15px 15px rgba(0,0,0,0.1);   
+                cursor: pointer;
 }
 .fig60 .actvities-image{
     height: 160px;
@@ -318,6 +326,7 @@ main .main {
     height: 48%;   
     box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
 	            15px 15px 15px rgba(0,0,0,0.1);
+                cursor: pointer;
 }
 .fig50 .actvities-image{
     height: 180px;
@@ -359,7 +368,6 @@ footer mn-footer{
 }
 .act-title{
     margin-left: 20px;
-    box-shadow: 20px;
 }
 
 /*@MEDIA SCREEN*/
@@ -371,7 +379,6 @@ footer mn-footer{
     main .main {
         display: flex;
         flex-direction: column-reverse;
-        padding: auto;
     }
     main h2{
         font-size: 1.4em;
